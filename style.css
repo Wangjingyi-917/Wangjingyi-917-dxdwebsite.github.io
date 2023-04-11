@@ -14,7 +14,7 @@
 }
 
 main {
-    background: #eeffaa;
+    background: #fff;
 }
 
 canvas {
@@ -215,7 +215,7 @@ header {
 section {
     grid-column: 2 / 12;
     padding: 1rem;
-    background: #ffeeaa;
+    background: #ddddee;
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
