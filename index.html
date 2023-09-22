@@ -15,25 +15,21 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/3.1.1/jquery.mobile-3.1.1.min.js"></script>
 
+	<script>import('./js/jquery.min.js')</script>
+	<script>import('./js/jquery.smoove.min.js')</script>
 
-    <script src="{{url_for('static',filename='/js/jquery.min.js')}}" type="module"></script>
-    <script src="{{url_for('static',filename='/js/jquery.smoove.min.js')}}" type="module"></script>
-    
-
+    <script>import('./main.js')</script>
+	
     
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="{{url_for('static',filename='images/icon.png')}}">
-    <!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}"> -->
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/stylecopy.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/home.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/project.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/projects-home.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/members.css')}}">
-    <script type="module" src="{{url_for('static',filename='js/main.js')}}"></script>
 
+    <link rel="stylesheet" href="./css/stylecopy.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/projects-home.css">
+    <link rel="stylesheet" href="./css/members.css">
 
-    <!-- <script src="{{url_for('static',filename='/js/OrbitControls.js')}}" type="module"></script> -->
-    <!-- <script src="{{url_for('static',filename='/js/three.js')}}" type="module"></script> -->
 
 
 </head>
@@ -186,11 +182,6 @@
 
 </main>
 
-<script>import('./featherlight.js')</script>
-<script>import('./featherlight.gallery.js')</script>
-<script>import('./jquery.detect_swipe.mim.js')</script>
-<script>import('.jquery.fullPage.js')</script>
-<script>import('./main.js')</script>
 </body>
 
 </html>
