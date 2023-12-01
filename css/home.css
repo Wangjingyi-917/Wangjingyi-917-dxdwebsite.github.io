@@ -907,3 +907,60 @@ img.home__award_logo {
     gap: 40px;
     margin-bottom: 20px;
 }
+
+#home__member{
+    margin: 2em;
+}
+
+#home__member h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    padding-top: 0em;
+    font-family:var(--body-font);
+    color:var(--main-color);
+}
+
+#team-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .team-member {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  .team-member a {
+    display: block; /* 使 <a> 元素占满整个 .team-member 区域 */
+    text-decoration: none; /* 去除链接的下划线 */
+  }
+
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .team-member p {
+    margin: 0;
+    font-weight: bold;
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white; /* 设置文字颜色，确保在任何背景下可见 */
+    z-index: 1; /* 使文字位于遮罩层上方 */
+  }
+
+
+
+  .team-member:hover p {
+    visibility: visible;
+  }

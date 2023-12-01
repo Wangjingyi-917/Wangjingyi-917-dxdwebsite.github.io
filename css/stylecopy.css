@@ -123,7 +123,7 @@ a:link,
 a:visited,
 a:active {
     color: inherit;
-    border-bottom: .15em solid var(--main-color-opacity);
+    /* border-bottom: .15em solid var(--main-color-opacity); */
     text-decoration: none;
     transition: all .15s ease
 }
